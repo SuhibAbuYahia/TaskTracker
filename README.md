@@ -4,6 +4,8 @@
 A simple command-line **task tracker** built in Java.
 Manage your tasks directly from the terminal — add, update, delete, and list them with ease.
 
+This is a solution for project of https://roadmap.sh/projects/task-tracker
+
 ---
 
 ## 🚀 Features
@@ -20,7 +22,7 @@ Manage your tasks directly from the terminal — add, update, delete, and list t
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/task-cli.git
+git clone https://github.com/SuhibAbuYahia/TaskTracker.git
 cd task-cli
 ```
 
@@ -40,20 +42,20 @@ target/task-cli-1.0.jar
 
 Run the application using:
 ```bash
-java -jar target/task-cli-1.0.jar <command> [arguments]
+java -jar target/taskTrackerCLI-0.0.1-SNAPSHOT.jar <command> [arguments]
 ```
 
 To make it feel like a native console command, you can create a shortcut:
 
 ### Linux / macOS (bash, zsh)
 ```bash
-echo 'alias task-cli="java -jar /absolute/path/to/target/task-cli-1.0.jar"' >> ~/.bashrc
+echo 'alias task-cli="java -jar /absolute/path/to/target/taskTrackerCLI-0.0.1-SNAPSHOT.jar"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
 ### Windows (PowerShell)
 ```powershell
-Set-Alias task-cli "java -jar C:\path\to\target\task-cli-1.0.jar"
+Set-Alias task-cli "java -jar C:\path\to\target\taskTrackerCLI-0.0.1-SNAPSHOT.jar"
 ```
 
 Now you can use `task-cli` directly in your terminal.

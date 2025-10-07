@@ -14,7 +14,7 @@ public class TaskFactory {
     private static final Map<Option, TaskAction> actions = Map.of(
             Option.ADD, new AddTaskAction(),
             Option.LIST, new ListTaskAction(),
-            Option.REMOVE, new RemoveTaskAction(),
+            Option.DELETE, new RemoveTaskAction(),
             Option.UPDATE, new UpdateTaskAction(),
             Option.IN_PROGRESS, new UpdateStatusTaskAction(),
             Option.DONE, new UpdateStatusTaskAction(),

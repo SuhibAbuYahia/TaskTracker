@@ -6,7 +6,7 @@ import java.util.Map;
 public enum Option {
     ADD("add"),
     LIST("list"),
-    REMOVE("remove"),
+    DELETE("delete"),
     TODO("mark-todo", TaskStatus.TODO),
     IN_PROGRESS("mark-in-progress", TaskStatus.IN_PROGRESS),
     DONE("mark-done", TaskStatus.DONE),
